@@ -1,0 +1,15 @@
+MyBot
+Makefile
+*.hlt
+*.log
+*~
+*.pyc
+*.pyo
+__pycache__/
+*.class
+*.ipr
+*.iws
+.emacs.desktop.lock
+.emacs.desktop
+run_game.ps1
+notebooks/.ipynb_checkpoints/
