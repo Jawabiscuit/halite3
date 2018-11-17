@@ -1,6 +1,6 @@
-#+OPTIONS: toc:nil num:nil
-* [[https://pythonprogramming.net/introduction-halite-iii-ai-coding-competition/][Introduction - Halite III (2018) AI Coding Competition p.1]]
 
+
+# [Introduction - Halite III (2018) AI Coding Competition p.1](https://pythonprogramming.net/introduction-halite-iii-ai-coding-competition/)
 
 Welcome everyone to a tutorial on Halite III, a game where you compete against
 other programmers to create artificial intelligences to collect resources.
@@ -32,11 +32,11 @@ convenient.
 Also, there is an embedded tutorial that is worth going through. Beyond this, it
 can also be helpful to download the files locally, if only just to read the
 source code. It's all heavily commented and it's a good idea to know what's
-already available to you to use (methods, functions...etc).
+already available to you to use (methods, functions&#x2026;etc).
 
 For example, if you download the local code, and go into the hlt directory,
-check out =entity.py=, you can see various methods for each of the entities in the
-game. If you check out =game_map.py=, you can see all of the methods you can call,
+check out `entity.py`, you can see various methods for each of the entities in the
+game. If you check out `game_map.py`, you can see all of the methods you can call,
 such as finding out if a certain position is occupied by a ship or structure,
 and even a simple navigation function that you'll probably eventually want to
 modify.
@@ -46,29 +46,25 @@ just figure out where the heck we want to go. Okay, so let's get started! Here's
 some basic starting code, taken from the tutorial on the Halite website. You can
 follow along either in the embedded editor, or locally.
 
-* IPython and Org Notes
 
-I've created an [[ipynb:(:url-or-port%20"http://127.0.0.1:8888"%20:name%20"testing_grounds.ipynb")][ipython notebook]] (link won't work until notebook server is
+# IPython and Org Notes
+
+I've created an [ipython notebook]((:url-or-port%20"http://127.0.0.1:8888"%20:name%20"testing_grounds.ipynb")) (link won't work until notebook server is
 started) to take notes and execute test code.
 
 Executing code is setup for org as well. To execute a single src block, put
-point inside block and press @@html:<kbd>C-c C-c</kbd>@@ to run the code.
+point inside block and press <kbd>C-c C-c</kbd> to run the code.
 
-More about org babel execution can be found [[https://orgmode.org/worg/org-contrib/babel/intro.html][here]] and in ein's [[http://millejoh.github.io/emacs-ipython-notebook/#org-mode-integration][documentation]].
+More about org babel execution can be found [here](https://orgmode.org/worg/org-contrib/babel/intro.html) and in ein's [documentation](http://millejoh.github.io/emacs-ipython-notebook/#org-mode-integration).
 
-#+NAME: c9192942-43b3-4b42-b325-e26030ba1914
-#+BEGIN_SRC ein :session 8888/testing_grounds.ipynb
-import sys
-
-a = 14500
-b = a + 1000
-
-print(f"A: {a} B: {b}")
-
-sys.version
-#+END_SRC
-
-#+RESULTS: c9192942-43b3-4b42-b325-e26030ba1914
-: A: 14500 B: 15500
+    import sys
+    
+    a = 14500
+    b = a + 1000
+    
+    print(f"A: {a} B: {b}")
+    
+    sys.version
 
 '3.6.4 |Anaconda custom (64-bit)| (default, Jan 16 2018, 10:22:32) [MSC v.1900 64 bit (AMD64)]'
+
